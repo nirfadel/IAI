@@ -1,0 +1,42 @@
+<div class="modal fade" #adModal id="adModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="myModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         <form [formGroup]="adForm">
+            <div class="form-group">
+                <label for="title">Title:</label>
+                <input type="text" class="form-control" formControlName="title" >
+            </div>
+            <div class="form-group">
+                <label for="content">Content:</label>
+                <textarea class="form-control" formControlName="content">
+                </textarea>
+            </div>
+            <div class="form-group">
+                <label for="location">Location:</label>
+                <input type="text"  class="form-control" formControlName="location"/>
+                <!-- <input type="text"  class="form-control" formControlName="location.lat"/> -->
+            </div>
+            <div class="form-group">
+                <label for="type">Ad type:</label>
+                    <select class="form-control" formControlName="type">
+                       <option value="1">Buy & sell</option>
+                       <option value="2">Events</option>
+                       <option value="3">Rent</option>
+                       <option value="4">Travel</option>
+                    </select>
+            </div>
+        </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" (click)="saveAd()">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  

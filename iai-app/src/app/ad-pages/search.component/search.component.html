@@ -1,0 +1,6 @@
+<div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Search by title or content"
+      aria-describedby="button-addon2" [(ngModel)]="searchText">
+    <button class="btn btn-outline-secondary" type="button" 
+    id="button-addon2"  (click)="sendData($event)">Go</button>
+  </div>

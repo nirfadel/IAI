@@ -1,0 +1,14 @@
+.ad-style{
+    width: 200px;
+}
+.delete{
+    cursor: pointer;
+    float: right;
+    color: red;
+}
+.edit-ad
+{
+    cursor: pointer;
+    float: left;
+    color: blueviolet;
+}

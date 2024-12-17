@@ -1,0 +1,23 @@
+<div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-12">
+  <figure class="user-card green">
+      <figcaption>
+        <a (click)="deleteAd()"><i class="fa fa-trash-o delete" title="Delete Ad!" ></i></a>
+        <a (click)="openUpdateAdModal()"><i class="fa fa-edit edit-ad" title="Edit Ad"></i></a>
+          <div class="profile">
+            <span>{{adData.adType}}</span>
+            @if (adData.location != null) {
+              <span>{{adData.location.lat}}--{{adData.location.lng}}</span>
+            }
+           
+          </div>
+          <h5>{{adData.title}}</h5>
+          <h6>{{adData.adType}}</h6>
+          <p>{{adData.content}}</p>
+          
+          <div class="clearfix">
+              <span class="badge badge-pill badge-info"><input type="text" (blur)="saveComment()"
+                [(ngModel)]="commentText" placeholder="Write a commant"/></span>
+          </div>
+      </figcaption>
+  </figure>
+</div>
