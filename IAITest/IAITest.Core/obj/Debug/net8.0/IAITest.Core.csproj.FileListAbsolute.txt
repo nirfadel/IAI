@@ -1,0 +1,11 @@
+C:\Users\רעות\Documents\ניר\IAI\IAITest\IAITest.Core\obj\Debug\net8.0\IAITest.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\רעות\Documents\ניר\IAI\IAITest\IAITest.Core\obj\Debug\net8.0\IAITest.Core.AssemblyInfoInputs.cache
+C:\Users\רעות\Documents\ניר\IAI\IAITest\IAITest.Core\obj\Debug\net8.0\IAITest.Core.AssemblyInfo.cs
+C:\Users\רעות\Documents\ניר\IAI\IAITest\IAITest.Core\obj\Debug\net8.0\IAITest.Core.csproj.CoreCompileInputs.cache
+C:\Users\רעות\Documents\ניר\IAI\IAITest\IAITest.Core\bin\Debug\net8.0\IAITest.Core.deps.json
+C:\Users\רעות\Documents\ניר\IAI\IAITest\IAITest.Core\bin\Debug\net8.0\IAITest.Core.dll
+C:\Users\רעות\Documents\ניר\IAI\IAITest\IAITest.Core\bin\Debug\net8.0\IAITest.Core.pdb
+C:\Users\רעות\Documents\ניר\IAI\IAITest\IAITest.Core\obj\Debug\net8.0\IAITest.Core.dll
+C:\Users\רעות\Documents\ניר\IAI\IAITest\IAITest.Core\obj\Debug\net8.0\refint\IAITest.Core.dll
+C:\Users\רעות\Documents\ניר\IAI\IAITest\IAITest.Core\obj\Debug\net8.0\IAITest.Core.pdb
+C:\Users\רעות\Documents\ניר\IAI\IAITest\IAITest.Core\obj\Debug\net8.0\ref\IAITest.Core.dll

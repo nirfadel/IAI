@@ -1,0 +1,25 @@
+[
+	{
+		"id": 2,
+		"title": "content two",
+		"content": "content is the best!",
+		"Location": {
+			"lat": 32.6076746,
+			"lng": 35.269402
+		},
+		"AdDate": "2024-12-16T09:06:55.6718009+02:00",
+		"AdUpdateDate": "2024-12-16T09:24:23.16675+02:00",
+		"IsDeleted": false,
+		"AdType": 0
+	},
+	{
+		"id": 3,
+		"title": "new ad 23",
+		"content": "dsfgsd fsdf ",
+		"Location": null,
+		"AdDate": "2024-12-17T22:03:49.9455206+02:00",
+		"AdUpdateDate": "0001-01-01T00:00:00",
+		"IsDeleted": false,
+		"AdType": 1
+	}
+]
