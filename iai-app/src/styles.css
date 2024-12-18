@@ -8,7 +8,7 @@ figure.user-card {
   background: #ffffff;
   padding: 20px;
   border-top: 3px solid #f2f2f2;
-  border: 1px solid #e1e5f1;
+  border: 2px solid #e1e5f1;
   text-align: center;
 }
 
@@ -17,7 +17,7 @@ figure.user-card.red {
 }
 
 figure.user-card.green {
-  border-top: 3px solid #3ecfac;
+  border-top: 10px solid #3ecfac;
 }
 
 figure.user-card.blue {
@@ -78,14 +78,14 @@ figure.user-card p {
   margin: 0;
   padding: 0 0 15px 0;
   color: #8796af;
-  line-height: 150%;
+
   font-size: .85rem;
 }
 
 figure.user-card ul.contacts {
   margin: 0;
   padding: 0 0 15px 0;
-  line-height: 150%;
+ 
   font-size: .85rem;
 }
 
@@ -112,20 +112,3 @@ ul li {
 }/* You can add global styles to this file, and also import other style files */
 
 
-.flex-container {
-    display: flex;
-    flex-direction:column;
-  }
-
-  .flex-container > div {
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-  }
-
-  .box{
-  display: flex;
-  margin: 0 -5px;
-  width: 100px;
-  }

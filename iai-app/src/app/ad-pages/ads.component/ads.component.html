@@ -1,15 +1,16 @@
-<div class="container-md page-container">
+<div class="page-container">
     <div class="row gutters">
         <div class="col">
             <button class="btn btn-outline-secondary" type="button" 
             id="button-addon2"  (click)="openAdModal()">Add Ad</button>
         </div>
     </div>
-    <div class="row gutters">
+    <div>
+        <ul>
         @for (ad of ads; track ad.id){
-            <app-ad-component [adData]="ad" (parentCall)="parentCall()"></app-ad-component>
+                <app-ad-component [adData]="ad" (parentCall)="parentCall()"></app-ad-component>
          }
+        </ul>
     </div>
 </div>
-
 <app-ad-modal></app-ad-modal>

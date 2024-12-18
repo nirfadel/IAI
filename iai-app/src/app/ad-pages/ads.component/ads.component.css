@@ -1,3 +1,26 @@
 #button-addon2{
     margin-bottom: 1%;
+    margin-left: 30px;
 }
+body {
+    padding: 16px; 
+    background: #19191C;
+  }
+  
+  ul {
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+  
+  li {
+    padding-top: 56.25%;
+    background: #303035;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  li > img {
+    position: absolute;
+    width: 100%;
+  }
